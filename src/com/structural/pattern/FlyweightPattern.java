@@ -77,7 +77,7 @@ class EngineI {
 	}
 }
 
-class Factory{
+class VehicalFactory{
 	private static Map<Color, VehicleI> vehiclesCache  = new HashMap<>();
 
 	public static VehicleI createVehicle(Color color) {
@@ -111,7 +111,7 @@ class Truck implements VehicleI{
 
 public class FlyweightPattern {
 	public static void main(String[] args) {
-		Factory factory = new Factory();
+		VehicalFactory factory = new VehicalFactory();
 		Color color = new Color("Blue");
 		VehicleI newVehicle = factory.createVehicle(color);
 		System.out.println(newVehicle.getColor().getColorName());
