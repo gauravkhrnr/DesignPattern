@@ -10,16 +10,16 @@ package com.structural.pattern;
 	2) Besides a much simpler interface, there’s one more benefit of using this design pattern. 
 	   It decouples a client implementation from the complex subsystem.
 	
-	Disadvantage :
+	Disadvantages :
 	1) The facade pattern doesn’t force us to unwanted tradeoffs, because it only adds additional layers
 	   of abstraction.
 	2) Sometimes the pattern can be overused in simple scenarios, which will lead to redundant implementations.
 	   
-	When to use :
+	When to uses :
 	1) When you want to provide simple interface to a complex sub-system.
 	2) When several dependencies exist between clients and the implementation classes of an abstraction.
 	
-	Best practice:
+	Best practice :
 	1) First, you should identify the subsystems that have a high degree of complexity, diversity, or 
 	variability, and that can benefit from being encapsulated behind a facade. 
 	2) Second, you should design the facade to provide a simple, consistent, and coherent interface that meets 

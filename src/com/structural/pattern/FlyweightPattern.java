@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /*
-  Flyweight:
+  Flyweight :
   - The flyweight pattern is based on the idea of reusing existing objects instead of creating new ones 
   	whenever possible. The objects that can be shared are called flyweightss.
   - The objects that use the flyweights are called contexts, and they contain the extrinsic state 
@@ -14,7 +14,7 @@ import java.util.Map;
   -	So that flyweight Design Pattern reduces the objects creation, decreases memory footprint and 
   	increase the performance.
   	
-  	Advantage:
+  	Advantages :
   	The main benefit of the flyweight pattern is that it can improve the system performance by reducing 
   	the memory usage and the number of objects that need to be created, transferred, and processed.
     Ex:
@@ -24,7 +24,7 @@ import java.util.Map;
     (such as position and color). This way, you can avoid creating thousands of objects for each character, and 
     save memory and rendering time.
   
-   Disavdvantage:
+   Disavdvantages :
    1) It can increase the complexity of the system design, as you need to separate the intrinsic and 
       extrinsic state of the objects, and implement a factory that manages the flyweights.
    2) It can introduce some overhead in accessing and updating the extrinsic state of the contexts, 
@@ -32,7 +32,7 @@ import java.util.Map;
       the flyweight pattern is not suitable for every system, as it depends on the nature and 
       frequency of the objects and their state changes.    
       
-   When to use:
+   When to use :
    To implement the flyweight pattern, you need to identify the objects that can be shared as flyweights and 
    extract their intrinsic state. Then, create a flyweight class that encapsulates the intrinsic state and 
    defines the common behavior of the flyweights. Additionally, create a flyweight factory that creates and 
@@ -40,7 +40,7 @@ import java.util.Map;
    Moreover, identify the objects that use the flyweights as contexts, and store their extrinsic state separately.
    Finally, modify the contexts to use the flyweight factory to access and manipulate the flyweights.
    
-   Example:
+   Example :
    let's consider a system that needs to display a map with thousands of trees of different types and locations. 
    Without the flyweight pattern, you would need to create an object for each tree with its type and location, 
    which would consume a lot of memory and rendering time. With the flyweight pattern, you can create a flyweight

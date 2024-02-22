@@ -1,12 +1,12 @@
 package com.structural.pattern;
 
 /*
- 	Decorator:
+ 	Decorator :
  	A Decorator pattern can be used to attach additional responsibilities to an object 
  	either statically or dynamically. 
  	It is also known as Wrapper class
  	
- 	Advantage:
+ 	Advantage :
  	1) The decorator pattern also allows you to compose different decorators at runtime, creating flexible and 
  	   dynamic combinations of behaviors.So better than static inheritance.
  	2) It enhances the extensibility of the object, because changes are made by coding new classes.
@@ -17,7 +17,7 @@ package com.structural.pattern;
  	4) It avoids the need for creating complex subclasses or inheritance hierarchies, which can lead to 
  	   code duplication and maintenance issues.
  	   
- 	Disadvantage:
+ 	Disadvantage :
  	1) it can introduce a lot of small objects in your system, which can increase the memory usage and 
  	   the complexity of debugging.
  	2) You also need to make sure that the decorators are compatible with the original object's interface and 
@@ -26,14 +26,14 @@ package com.structural.pattern;
  	   many decorators or nest them too deeply. You might also lose some type information or functionality of 
  	   the original object, since the decorators only expose the common interface and hide the specific details.
  	   
- 	 When to use:
+ 	 When to use :
  	 1) The decorator pattern is an ideal solution when you need to add or modify functionality of an object 
  	    without altering its core behavior or structure, or when creating different variations of an object's 
  	    behavior without creating a multitude of subclasses or inheritance hierarchies.
- 	 EX: Examples of scenarios where the decorator pattern can be applied include adding logging, caching, or 
- 	     validation to an existing service or component; adding encryption, compression, or encoding to an 
- 	     existing data stream or file; and adding graphical effects, borders, or scrollbars to a user interface 
- 	     component.   
+ 	    EX: Examples of scenarios where the decorator pattern can be applied include adding logging, caching, or 
+ 	    validation to an existing service or component; adding encryption, compression, or encoding to an 
+ 	    existing data stream or file; and adding graphical effects, borders, or scrollbars to a user interface 
+ 	    component.   
  	          
  */
 
